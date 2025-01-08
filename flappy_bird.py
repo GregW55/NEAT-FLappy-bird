@@ -1,5 +1,3 @@
-from pickle import GLOBAL
-
 import pygame
 import neat
 import time
