@@ -54,7 +54,6 @@ The config-feedforward.txt file allows you to modify the neural network and NEAT
 pop_size: Adjust the number of birds in each generation.
 activation_default: Define the activation function for neurons.
 max_fitness_threshold: Set a fitness value to terminate training early.
-Screenshots
 
 Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
