@@ -43,20 +43,21 @@ Watch as the birds evolve to play the game more effectively over generations.
 
 To stop the simulation, close the game window.
 
-How It Works
+# How It Works
 Bird Movement: Birds are controlled by a neural network that takes the bird's position and pipe distances as inputs and decides whether to jump.
 Pipe Collision: Pipes move toward the bird, and collisions are detected using masks.
 Base Movement: The base scrolls to simulate movement.
 Fitness Function: Birds are rewarded for surviving and passing pipes but penalized for collisions or falling.
-Configuration
+
+# Configuration
 The config-feedforward.txt file allows you to modify the neural network and NEAT parameters:
 
 pop_size: Adjust the number of birds in each generation.
 activation_default: Define the activation function for neurons.
 max_fitness_threshold: Set a fitness value to terminate training early.
 
-Contributing
+# Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License.
